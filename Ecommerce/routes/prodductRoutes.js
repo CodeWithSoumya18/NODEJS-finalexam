@@ -17,3 +17,4 @@ router.post("/add", auth, addProduct)
 router.get("/category/:categoryId", auth, productsByCategory)
 
 export default router
+
