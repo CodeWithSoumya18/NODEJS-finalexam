@@ -1,5 +1,5 @@
-import Product from "../models/product.model.js"
-import Category from "../models/category.model.js"
+import Product from "../models/product.js"
+import Category from "../models/category.js"
 
 
 export const allProducts = async (req, res) => {
@@ -65,3 +65,4 @@ export const productsByCategory = async (req, res) => {
     res.status(500).send("Category filter failed")
   }
 }
+
